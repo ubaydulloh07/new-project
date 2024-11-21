@@ -270,4 +270,101 @@ body .footer-img img:hover {
   background: rgb(57, 57, 83);
   transition: all 0.4s ease;
   border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  header img {
+    margin-left: 5%;
+  }
+  header .header-content .header-links li a {
+    display: none;
+  }
+  .header-button {
+    padding: 20%;
+    margin-right: 30%;
+  }
+  .header-button .apply {
+    display: none;
+  }
+  .header-button .menu img {
+    display: block;
+  }
+  .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .section-1 .section-1-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .section-1 .section-1-cards :nth-child(1) {
+    display: flex;
+  }
+  .section-1 .section-1-cards :nth-child(2) {
+    display: flex;
+  }
+  .section-1 .section-1-cards :nth-child(3) {
+    display: flex;
+  }
+  .section-1 .section-1-cards :nth-child(4) {
+    display: none;
+  }
+  .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-2 .item-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section-2 .item-1 .item-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 .item-1 .item-text {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 25px;
+  }
+  footer .footer-content {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .footer-link {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=blog.css.map */

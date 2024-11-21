@@ -19,6 +19,9 @@
           <button class="header-button">
             Apply <span class="apply">for grant</span>
           </button>
+          <button class="menu">
+            <img src="./faq-img/menu.png" alt="" />
+          </button>
         </ul>
       </div>
     </header>
@@ -289,7 +292,10 @@
       <section class="section-4">
         <div class="section-4-content">
           <p>Have a project in mind?</p>
-          <h2>Let’s create something awesome.</h2>
+          <h2>
+            Let’s create <br class="none" />
+            something awesome.
+          </h2>
           <button>Apply for grant</button>
         </div>
       </section>
@@ -338,6 +344,12 @@
           }
         });
       });
+    </script>
+    <script>
+      function toggleMenu() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("active");
+      }
     </script>
   </body>
 </html>

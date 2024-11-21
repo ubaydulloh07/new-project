@@ -71,6 +71,9 @@ header .header-content .header-button:hover {
   transition: all 0.4s ease;
   box-shadow: white 1px 1px 10px;
 }
+header .header-content .menu {
+  display: none;
+}
 
 * {
   margin: 0;
@@ -338,6 +341,9 @@ body {
   gap: 20px;
   padding: 50px;
 }
+.section-4 .section-4-content .none {
+  display: none;
+}
 .section-4 .section-4-content h2 {
   color: white;
   font-weight: 700;
@@ -430,4 +436,157 @@ body .footer-img img:hover {
   background: rgb(57, 57, 83);
   transition: all 0.4s ease;
   border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  header .header-content .header-links li a {
+    display: none;
+  }
+  .header-button {
+    padding: 20%;
+    margin-right: 10%;
+  }
+  .header-button .apply {
+    display: none;
+  }
+  .header-button .menu img {
+    display: block;
+  }
+  .faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .faq h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin-top: 10%;
+  }
+  .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    margin-top: 20px !important;
+  }
+  .section-1 .section-1-tt {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .section-1 .section-1-tt h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+  }
+  .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .section-2 .section-2-tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .section-2 .section-2-tt h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .section-3 .section-3-tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .section-3 .section-3-tt h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .section-4 .section-4-content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px;
+  }
+  .section-4 .section-4-content p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .section-4 .section-4-content h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+  .section-4 .section-4-content .none {
+    display: flex;
+  }
+  footer {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 25px;
+  }
+  footer .footer-content {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .footer-link {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=faq.css.map */

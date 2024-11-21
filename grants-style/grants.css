@@ -149,7 +149,7 @@ body {
   font-size: 18px;
 }
 .section-2 .accordion-container {
-  width: 800px;
+  width: 56%;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -228,6 +228,7 @@ body {
   background-color: white;
   padding: 60px 100px;
   border-radius: 15px;
+  width: 50%;
 }
 .section-3 form .input-1 {
   display: flex;
@@ -235,7 +236,7 @@ body {
   gap: 10px;
 }
 .section-3 form .input-1 input {
-  width: 500px;
+  width: 210%;
   height: 35px;
   padding: 20px;
   border: solid 2px rgb(200, 199, 216);
@@ -249,7 +250,7 @@ body {
   gap: 15px;
 }
 .section-3 form .input-2 input {
-  width: 500px;
+  width: 150%;
   height: 35px;
   padding: 20px;
   border: solid 2px rgb(200, 199, 216);
@@ -263,7 +264,7 @@ body {
   gap: 15px;
 }
 .section-3 form .input-3 input {
-  width: 500px;
+  width: 180%;
   height: 100px;
   padding: 10px;
   border: solid 2px rgb(200, 199, 216);
@@ -277,7 +278,7 @@ body {
   gap: 15px;
 }
 .section-3 form .input-4 input {
-  width: 500px;
+  width: 125%;
   height: 100px;
   padding: 10px;
   border: solid 2px rgb(200, 199, 216);
@@ -353,4 +354,131 @@ body .footer-img img:hover {
   background: rgb(57, 57, 83);
   transition: all 0.4s ease;
   border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  header img {
+    margin-left: 5%;
+  }
+  header .header-content .header-links li a {
+    display: none;
+  }
+  .header-button {
+    padding: 20%;
+    margin-right: 30%;
+  }
+  .header-button .apply {
+    display: none;
+  }
+  .header-button .menu img {
+    display: block;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-1 .section-1 .section-1-tt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section-1 .section-1-tt h1 {
+    font-size: 40px;
+  }
+  .section-1 .section-1-tt p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 .section-2-tt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section-2 .section-2-tt h1 {
+    font-size: 20px;
+  }
+  .section-2 .accordion-container {
+    width: 99%;
+  }
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3 .text-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section-3 .text-2 h2 {
+    font-size: 35px;
+  }
+  .section-3 form {
+    width: 99%;
+    padding: 20px;
+  }
+  .section-3 form .input-1 input {
+    width: 150%;
+  }
+  .section-3 form .input-2 input {
+    width: 107%;
+  }
+  .section-3 form .input-3 input {
+    width: 130%;
+  }
+  .section-3 form .input-4 input {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 25px;
+  }
+  footer .footer-content {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .footer-link {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=grants.css.map */

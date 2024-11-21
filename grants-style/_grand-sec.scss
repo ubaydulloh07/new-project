@@ -92,7 +92,7 @@
     }
 
     .accordion-container {
-        width: 800px;
+        width: 56%;
         background-color: #ffffff;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -188,6 +188,7 @@ form {
     background-color: white;
 padding: 60px  100px;
 border-radius: 15px;
+width: 50%;
 
 
     .input-1 {
@@ -197,7 +198,7 @@ border-radius: 15px;
 
 
         input {
-            width: 500px;
+            width: 210%;
             height: 35px;
             padding: 20px;
             border: solid 2px  rgba(200, 199, 216, 1);
@@ -215,7 +216,7 @@ border-radius: 15px;
 
 input {
 
-        width: 500px;
+    width: 150%;
         height: 35px;
         padding: 20px;
         border: solid 2px  rgba(200, 199, 216, 1);
@@ -235,7 +236,7 @@ input {
 
     input {
 
-        width: 500px;
+        width: 180%;
         height: 100px;
         padding: 10px;
         border: solid 2px  rgba(200, 199, 216, 1);
@@ -255,7 +256,7 @@ input {
     gap: 15px;
 
     input {
-        width: 500px;
+        width:125%;
         height: 100px;
         padding: 10px;
         border: solid 2px  rgba(200, 199, 216, 1);

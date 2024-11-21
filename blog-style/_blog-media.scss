@@ -1,0 +1,130 @@
+
+
+
+@media (max-width: 500px)  {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+
+        img {
+            margin-left: 5%;
+        }
+    }
+
+    header .header-content .header-links li a {
+        display: none;
+    }
+    .header-button {
+        padding: 20%;
+        margin-right: 30%;
+    }
+    .header-button .apply {
+        display: none;
+    }
+    .header-button .menu img {
+        display: block;
+    }
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px;
+
+
+    .section-1-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+
+        :nth-child(1) {
+            display: flex;
+        }
+
+        :nth-child(2) {
+            display: flex;
+        }
+
+        :nth-child(3) {
+            display: flex;
+        }
+
+            :nth-child(4) {
+                display: none;
+    }
+
+
+}
+}
+
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+   
+    .item-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        .item-img {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item-text {
+            display: flex;
+            flex-direction: column;
+        } 
+    }
+
+  
+  
+}
+
+
+
+footer {
+    display: flex;
+   align-items: start !important;
+   justify-content: start !important;
+    flex-direction: column;
+    gap: 25px;
+
+    .footer-content {
+        display: flex;
+      align-items: start !important;
+      justify-content: start !important;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-link {
+        display: flex;
+       align-items: start !important;
+       justify-content: start !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+ }
+ 
+
+
+
+
+
+}

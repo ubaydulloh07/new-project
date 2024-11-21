@@ -284,4 +284,133 @@ body .footer-img img:hover {
   background: rgb(57, 57, 83);
   transition: all 0.4s ease;
   border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  header img {
+    margin-left: 5%;
+  }
+  header .header-content .header-links li a {
+    display: none;
+  }
+  .header-button {
+    padding: 20%;
+    margin-right: 30%;
+  }
+  .header-button .apply {
+    display: none;
+  }
+  .header-button .menu img {
+    display: block;
+  }
+  .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+  }
+  .section-1 .section-1-tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .section-1 .section-1-tt h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .section-1 .section-1-tt p {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+  }
+  .section-1 .section-1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .section-1 .section-1-content .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-1 .section-1-content .logo h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .section-1 .box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .section-2 .aa h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .section-2 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-2 .bb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-2 .bb p {
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 25px;
+  }
+  footer .footer-content {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .footer-link {
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=brand.css.map */
