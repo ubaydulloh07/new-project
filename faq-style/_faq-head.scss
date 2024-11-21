@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+    background-image: url(../images/bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:  rgba(28, 28, 40, 1);
+    font-family: sans-serif;
+    overflow-x: hidden;
+    
+    
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px  0px;
+
+  
+
+
+    .header-content {
+        .header-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            li {
+                list-style-type: none;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color:  rgba(200, 199, 216, 1);
+                    padding: 15px   20px;
+                    font-size: 16px;
+                    transition: all 0.4s ease;
+                }
+
+                a:hover {
+                    color:white;
+                    padding: 15px   20px;
+                    background: rgba(57, 57, 83, 1);
+                    border-radius: 8px;
+                    cursor: pointer;
+                }
+            }
+            
+            
+        }
+        
+                        .header-button {
+                            cursor: pointer;
+                            border: none;
+                            padding: 12px 16px;
+                            border-radius: 8px;
+                            background: rgba(105, 102, 255, 1);
+                           color: white;
+                           font-size: 16px;
+                           transition: all 0.4s ease;
+                        }
+
+                        .header-button:hover {
+                            cursor: pointer;
+                            border: none;
+                            padding: 12px 16px;
+                            border-radius: 8px;
+                         
+                           color: white;
+                           font-size: 16px;
+                           transition: all 0.4s ease;
+                           box-shadow: white 1px 1px 10px;
+                        }
+
+                       
+    }
+}
