@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./blog-style/blog.css" />
     <title>Document</title>
   </head>
@@ -24,10 +25,10 @@
     </header>
     <main>
       <section class="section-1">
-        <div class="section-1-tt">
+        <div class="section-1-tt" data-aos="fade-down">
           <h1>Blog</h1>
         </div>
-        <div class="section-1-cards">
+        <div class="section-1-cards" data-aos="fade-down">
           <a href="">Latest</a>
           <a href="">Funding round</a>
           <a href="">Spotlight</a>
@@ -37,16 +38,16 @@
       <section class="section-2">
         <div class="item-1">
           <div class="item-img">
-            <img src="./blog-img/round-9.png" alt="" />
-            <img src="./blog-img/r-8.png" alt="" />
+            <img data-aos="fade-right" src="./blog-img/round-9.png" alt="" />
+            <img data-aos="fade-left" src="./blog-img/r-8.png" alt="" />
           </div>
           <div class="item-text">
-            <div class="item-title">
+            <div data-aos="fade-right" class="item-title">
               <p>Funding round</p>
               <b>Round 9 of approvals</b>
               <p class="zz">January 1, 2022</p>
             </div>
-            <div class="item-title">
+            <div data-aos="fade-left" class="item-title">
               <p class="xx">Funding round</p>
               <b>Round 9 of approvals</b>
               <p class="zz">January 1, 2022</p>
@@ -56,16 +57,16 @@
 
         <div class="item-1">
           <div class="item-img">
-            <img src="./blog-img/r-7.png" alt="" />
-            <img src="./blog-img/r-6.png" alt="" />
+            <img data-aos="fade-right" src="./blog-img/r-7.png" alt="" />
+            <img data-aos="fade-left" src="./blog-img/r-6.png" alt="" />
           </div>
           <div class="item-text">
-            <div class="item-title">
+            <div data-aos="fade-right" class="item-title">
               <p>Funding round</p>
               <b>Round 7 of approved grants</b>
               <p class="zz">January 1, 2022</p>
             </div>
-            <div class="item-title">
+            <div data-aos="fade-left" class="item-title">
               <p class="xx">Funding round</p>
               <b>Round 6 of approved grants</b>
               <p class="zz">January 1, 2022</p>
@@ -75,23 +76,23 @@
 
         <div class="item-1">
           <div class="item-img">
-            <img src="./blog-img/r-5.png" alt="" />
-            <img src="./blog-img/r-4.png" alt="" />
+            <img data-aos="fade-right" src="./blog-img/r-5.png" alt="" />
+            <img data-aos="fade-left" src="./blog-img/r-4.png" alt="" />
           </div>
           <div class="item-text">
-            <div class="item-title">
+            <div data-aos="fade-right" class="item-title">
               <p>Funding round</p>
               <b>Fifth round of approvals</b>
               <p class="zz">January 1, 2022</p>
             </div>
-            <div class="item-title">
+            <div data-aos="fade-left" class="item-title">
               <p class="xx">Funding round</p>
               <b>Third round of approvals</b>
               <p class="zz">January 1, 2022</p>
             </div>
           </div>
         </div>
-        <div class="section-2-btn">
+        <div class="section-2-btn" data-aos="fade-down">
           <button>Load more posts</button>
         </div>
       </section>
@@ -123,5 +124,9 @@
         <img src="./images/footer-img.png" alt="" />
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

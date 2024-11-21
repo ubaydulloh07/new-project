@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Document</title>
   </head>
@@ -24,14 +25,14 @@
     </header>
     <main>
       <section class="section-1">
-        <div class="profile">
+        <div class="profile" data-aos="fade-up">
           <img src="./images/profil.png" alt="" />
         </div>
 
-        <div class="name">
+        <div class="name" data-aos="fade-up">
           <h1>Jane Cooper</h1>
         </div>
-        <div class="section-1-text">
+        <div class="section-1-text" data-aos="fade-up">
           <b>About</b>
           <p>
             For athletes, high altitude produces two contradictory effects on
@@ -43,7 +44,7 @@
           </p>
           <h3>Links</h3>
         </div>
-        <div class="section-1-content">
+        <div class="section-1-content" data-aos="fade-down">
           <div class="item-1">
             <img src="./images/twitter.png" alt="" />
             <a href="https://twitter.com">Twitter</a>
@@ -63,11 +64,11 @@
         </div>
       </section>
       <section class="section-2">
-        <div class="section-2-content">
+        <div class="section-2-content" data-aos="fade-down">
           <h1>Projects</h1>
         </div>
         <div class="section-2-cards">
-          <div class="card-1">
+          <div class="card-1" data-aos="fade-right">
             <div class="card-text">
               <p>Category</p>
               <b>Grant title</b>
@@ -78,7 +79,7 @@
             </div>
           </div>
 
-          <div class="card-2">
+          <div class="card-2" data-aos="fade-left">
             <img src="./images/title.png" alt="" />
           </div>
         </div>
@@ -111,6 +112,10 @@
           <img src="./images/footer-img.png" alt="" />
         </div>
       </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </main>
   </body>
 </html>

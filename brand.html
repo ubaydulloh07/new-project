@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./brand-style/brand.css" />
     <title>Document</title>
   </head>
@@ -24,7 +25,7 @@
     </header>
     <main>
       <section class="section-1">
-        <div class="section-1-tt">
+        <div class="section-1-tt" data-aos="zoom-in">
           <h1>Brand assets</h1>
           <p>
             If you are looking to use the dYdX Grants brand, please use the
@@ -33,29 +34,29 @@
         </div>
 
         <div class="section-1-content">
-          <div class="logo">
+          <div class="logo" data-aos="zoom-in">
             <h2>Logo</h2>
           </div>
 
           <div class="box-1">
-            <div class="item">
+            <div class="item" data-aos="flip-left">
               <img src="./brand-img/bx-1.png" alt="" />
               <p>Primary Logo</p>
             </div>
 
-            <div class="item">
+            <div class="item" data-aos="flip-right">
               <img src="./brand-img/bx-2.png" alt="" />
               <p>Inverted Primary Logo</p>
             </div>
           </div>
 
           <div class="box-1">
-            <div class="item">
+            <div class="item" data-aos="flip-left">
               <img src="./brand-img/bx-1.png" alt="" />
               <p>Monotone Logo Dark</p>
             </div>
 
-            <div class="item">
+            <div class="item" data-aos="flip-right">
               <img src="./brand-img/bx-2.png" alt="" />
               <p>Monotone Logo Light</p>
             </div>
@@ -69,23 +70,30 @@
         </div>
 
         <div class="card">
-          <div class="card-1">
+          <div class="card-1" data-aos="fade-up" data-aos-duration="3000">
+            >
             <img src="./brand-img/avat-1.png" alt="" />
             <p>Primary</p>
           </div>
 
-          <div class="card-1">
+          <div class="card-1" data-aos="fade-up" data-aos-duration="3000">
+            >
             <img src="./brand-img/avat-1.png" alt="" />
             <p>Monotone Dark</p>
           </div>
 
-          <div class="card-1">
+          <div class="card-1" data-aos="fade-up" data-aos-duration="3000">
+            >
             <img src="./brand-img/avat-2.png" alt="" />
             <p>Monotone Light</p>
           </div>
         </div>
 
-        <div class="bb">
+        <div
+          class="bb"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           <h2>Guidelines</h2>
           <p>
             You may include the dYdX Grants logo in your website if you received
@@ -127,5 +135,9 @@
         <img src="./images/footer-img.png" alt="" />
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
